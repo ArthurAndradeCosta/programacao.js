@@ -1,0 +1,28 @@
+ @charset "UTF-8";
+ body {
+background-color: rgb(119, 119, 197); font-size: 20px;
+ }
+ h1 {
+    color: rgb(5, 61, 110);
+ }
+ h2 {
+    color: rgb(45, 7, 151);
+ }
+ h3 {
+    color: rgb(45, 7, 151);
+ }
+ p {
+    color: aliceblue;
+ }
+ q {
+    color:aliceblue;
+ }
+ blockquote {
+    color: aliceblue;
+ }
+ a {
+    color: rgb(18, 5, 90);
+ }
+ li {
+    color: aliceblue;
+ }
