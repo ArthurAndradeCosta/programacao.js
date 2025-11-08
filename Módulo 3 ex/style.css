@@ -33,6 +33,7 @@ header > h1 {
     padding: 20px;
     font-family: var(--fonte-destaque);
     font-size: 3em;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.623);
 }
 
 header p {
@@ -40,25 +41,55 @@ header p {
     color: var(--cor0);
     font-family: var(--fonte-destaque);
     font-size: 1.6em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.623);
+}
+
+header a {
+    text-decoration: none;
+}
+
+a:hover {
+     text-decoration: underline;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+
+article > p {
+    color: #8417d5;
+    width: 800px;
+    margin: auto;
+   text-align: center;
+   font-size: 1.5em;
 }
 
 section.conteudo {
     background-image: url(imagens/equipamento-escolar-em-linha-em-casa_23-2149041145.avif);
-    width: 700px;
-    height: 400px;
+    background-size: cover;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
     margin: auto;
     position: absolute;
     left: 37%;
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+  background-position: right center;
+  line-height: 2.5em;
 }
 
-section > h1 {
+.conteudo > h1 {
     color: var(--cor0);
     background-color: #bc38e067;
     padding-top: 42px;
+    padding:  0px 10px 0px 10px;
+    margin: -32px 0px -32px 0px;
+    border-radius: 20px;
 }
+
 
 .container {
     background-color: var(--cor2);
@@ -66,9 +97,111 @@ section > h1 {
     width: 1000px;
     position: relative;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
 }
 
-.container > p {
-    text-align: right;
+
+
+
+main > p {
+    font-size: 1.4em;
+}
+
+.textolado {
+    color: var(--cor4);
+    font-family: var(--fonte-destaque);
+    font-size: 1.5em;
+    line-height: 3.9em;
+      text-align: right;
     padding: 20px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.308);
+}
+
+.img {
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+    border-radius: 10px;
+    box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.582);
+
+}
+
+.img > p {
+    width: 300px;
+    font-size: 1.4em;
+    background-color: #8317d5a2;
+    color: var(--cor0);
+    padding: 10px;
+    margin: 50px;
+    border-radius: 15px;
+    display: inline-block;
+}
+
+.canal {
+    width: 1000px;
+    margin: auto;
+    background-color: var(--cor0);
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 10px;
+    line-height: 1.5em;
+    font-size: 1.2em;
+    margin-bottom: 50px;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
+}
+
+.canal > h1 {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    color: var(--cor2);
+}
+
+h2 {
+    text-align: center;
+    color: var(--cor4);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+}
+
+.txt {
+    width: 1000px;
+    margin: auto;
+    background-color: var(--cor2);
+    color: var(--cor1);
+    padding: 0px 20px 20px 20px;
+    border-radius: 20px;
+    font-size: 1.25em;
+     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.651);
+}
+
+.txt > h1 {
+   text-align: center;
+    color: var(--cor4);
+    font-family: var(--fonte-destaque);
+    font-size: 3em;   
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.651);
+}
+
+footer {
+    background-color: var(--cor2);
+    padding: 10px;
+    text-align: center;
+    margin-top: 50px;
+    color: var(--cor0);
+    font-weight: bold;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.651);
+}
+
+#abc {
+      text-decoration: none;
+     color: var(--cor0);
+    font-weight: bold;
+}
+
+#abc:hover {
+    text-decoration: underline;
+    background-color: var(--cor1);
+    color: var(--cor2);
+    padding: 3px;
+    border-radius: 3px;
 }
