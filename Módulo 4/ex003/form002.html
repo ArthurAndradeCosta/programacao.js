@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>teste de formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iusu">usuário</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="nome do usuário" autocomplete="username">
+        </p>
+        <p>
+            <label for="isenha">senha</label>
+            <input type="password" name="senha" id="isenha" minlength="8" maxlength="15" size="10" placeholder="mín 8 caracteres" autocomplete="current-password">
+             </p>
+            <p><input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"></p>
+       
+    </form>
+
+    <div>
+        <h3>Aprendendo</h3>
+        <p>tags:</p>
+        <ol>
+            <li><strong>form:</strong> criar formularios/ tag inicial</li>
+            <li><strong>action:</strong> para onde vai as informações</li>
+            <li><strong>method:</strong> post (esconde na url inf),get (aparece)</li>
+            <li><strong>autocomplete</strong>: indicação de texto já escrito anteriormente</li>
+            <li><strong>label:</strong> éa parte escrita e a denominação</li>
+            <li><strong>input:</strong> criar a caixa, on tem seu id (conectado no label) e seu nome</li>
+            <li><strong>input type:</strong> denominação de um critério da caixa</li>
+            <li><strong>submit:</strong> botão de enviar</li>
+            <li><strong>reset:</strong> botão de resetar</li>
+            <li><strong>value:</strong> o nome dado por você</li>
+        </ol>
+    </div>
+</body>
+</html>
