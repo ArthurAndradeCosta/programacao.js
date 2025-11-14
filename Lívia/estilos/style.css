@@ -35,12 +35,7 @@ div {
     color: var(--cor3);
     text-shadow: 1px 1px 2px black;
 
-    position: absolute;
-            
-    left: 50%;
-    top: 50%;
 
-   transform: translate(-50%, -100%);
 }
 
 div a {
