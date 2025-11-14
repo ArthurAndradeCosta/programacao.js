@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Declaração</title>
+    <style>
+        :root {
+    --cor0: #FDB7B9;
+    --cor1: #FDB4EF;
+    --cor2: #FC7F9F;
+    --cor3: #F1DFDF;
+    --cor4: #BA5BBA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--cor4);
+    color: var(--cor3);
+}
+
+.conteudo {
+    text-align: center;
+}
+
+.conteudo h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 3em;
+
+}
+
+label {
+    font-size: 1em;
+    
+}
+
+.nome {
+    text-decoration: none;
+    display: block;
+    
+    
+}
+
+.senha {
+    text-decoration: none;
+    display: block;
+}
+
+.enviar {
+    background-color: var(--cor2);
+    margin-top: 70px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    font-size: 1.5em;
+    width: 20vw;
+}
+
+#nome {
+    margin-top: 40px;
+}
+
+#sen {
+    margin-top: 40px;
+
+}
+
+input {
+    margin: auto;
+    font-size: 1em;
+    padding: 5px 30px 5px 30px;
+    background-color: #BA5BBA;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: black;
+}
+
+input:focus-within {
+    background-color: white;
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+        <header>
+            <h1>Cadastre-se</h1>
+        </header>
+            <form action="index.html" method="post" autocomplete="on">
+                <div id="nome"> 
+                    <label for="imail">Email ou Nome de usuário</label>
+                    <input type="email" name="email" id="imail" class="nome" required autocomplete="email">
+                </div> 
+
+                <div id="sen">
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha" class="senha" required autocomplete="current-password" minlength="8" maxlength="25">
+                </div>
+
+                <input type="submit" value="Continuar" class="enviar">
+
+            </form>
+    </div>
+    
+</body>
+</html>
