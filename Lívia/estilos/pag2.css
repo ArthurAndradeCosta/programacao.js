@@ -19,8 +19,9 @@ body {
 }
 
 div {
-    background-color: var(--cor3);
-    width: 90vw;
+    background-color: #f1dfdfb6;
+    width: 75vw;
+    
     margin: auto;
     margin-top: 25vh;
     padding: 20px;
@@ -46,7 +47,7 @@ div p {
 }
 
 a {
-    background-color: #FC7F9F;
+    background-color: #fc7f9e;
     color: var(--cor3);
     text-decoration: none;
     font-weight: bold;
@@ -65,4 +66,10 @@ html, body {
     height: 100vh;
     background-position: center center;
     position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    div p {
+        font-size: 1.3em;
+    }
 }
