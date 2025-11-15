@@ -24,6 +24,30 @@ html, body {
     position: relative;
 }
 
+header {
+background-color: var(--cor4);
+text-align: center;
+padding: 10px;
+background-image: linear-gradient( to top, #d15a78, #a142a1);
+box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.568);
+color: #F1DFDF;
+text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.658);
+}
+
+
+header span {
+    margin: 20px 40px 5px 40px;
+    color: #F1DFDF;
+    padding: 2px;
+    border: 2px solid #F1DFDF;
+    border-radius: 4px;
+}
+
+header > span > abbr {
+    text-decoration: none;
+    border-bottom: none;
+}
+
 div {
     background-color: #ba5bbaa8;
     text-align: center;
@@ -48,8 +72,8 @@ div a {
     border-radius: 6px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.705);
     padding: 3px;
-    margin: 10px;
-
+    margin: 20px 0px 20px 0px;
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -66,5 +90,9 @@ div a {
     transform: translate(-50%, -50%);
     width: 70vw;
     height: 30vh;
+}
+
+html, body {
+    width: 100vw;
 }
 }
