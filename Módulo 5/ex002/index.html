@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Flex box</title>
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    background-color: gray;
+    padding: 10px;
+    color: white;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    flex: 0 0 200px;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+
+a {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 5px;
+    text-align: center;
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+    transition: background-color .5s;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.726);
+
+}
+
+
+@media screen and (max-width: 580px ) {
+
+header ,nav {
+    flex-flow: column nowrap;
+}
+
+header h1 {
+    flex-basis: 50px;
+}
+
+nav a {
+    width: 90vw;
+}
+}
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Opção 1</a>
+            <a href="#">Opção 2</a>
+            <a href="#">Opção 3</a>
+            <a href="#">Opção 4</a>
+            <a href="#">Opção 5</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Teste de Flex Box</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et obcaecati dolores cum vitae eligendi, neque, asperiores, nemo qui deserunt dicta explicabo iusto deleniti tenetur laborum. Hic ut esse quos est? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur quibusdam adipisci incidunt nulla delectus minus amet, sint voluptas hic in? Explicabo velit iusto a ducimus, nisi in. Facere, enim quae! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab quam dolorum repudiandae a est velit aliquam, impedit, sint voluptatem error, ut nobis totam! Cupiditate veniam magnam, libero architecto animi vero. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam neque porro ab? Sint, esse nisi vel aliquid harum praesentium soluta doloribus unde amet eaque accusantium ut aut atque labore architecto. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum architecto error, eius consequuntur doloremque porro ipsa cum eos eveniet soluta deserunt consequatur quibusdam. Vel eligendi praesentium ipsa repellat? Corrupti, sapiente!</p>
+    </main>
+</body>
+</html>
