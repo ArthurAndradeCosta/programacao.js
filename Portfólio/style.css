@@ -108,6 +108,7 @@ div.lista {
    
 }
 
+
 div.skills h2 {
     margin: 10px 0px 25px 0px;
     color: var(--cor-azul);
@@ -116,14 +117,10 @@ div.skills h2 {
 div.skills p {
     color: var(--cor-azul);
     font-weight: bold;
+   
 }
 
-div.barra {
-    background-color: lightgray;
-    height: 10px;
-    border-radius: 25px;
-    width: 100%;
-}
+
 
 div.progresso {
     background-color: rgb(90, 175, 255);
@@ -143,7 +140,7 @@ div.barra {
     background-color: lightgray;
     height: 10px;
     border-radius: 25px;
-    width: 100%;
+    width: 95%;
 }
 
 div.progressocss {
@@ -186,4 +183,71 @@ div.progressol {
     height: 10px;
     width: 80vw;
     border-radius: 25px;
+}
+
+
+/*FORMACOES*/
+
+article {
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+article h2 {
+    color: var(--cor-azul);
+    
+}
+
+div.form1 {
+    background-color: var(--cor-de-fundo);
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-left: 5px solid var(--cor-azul);
+}
+
+div.form1 h3 {
+    color: var(--cor-azul);
+    margin: 5px 0px;
+    font-size: 1.1em;
+}
+
+div.form1 span {
+    font-weight: bolder;
+}
+
+div.form2 {
+    background-color: var(--cor-de-fundo);
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-left: 5px solid var(--cor-azul);
+}
+
+div.form2 h3 {
+    color: var(--cor-azul);
+    margin: 5px 0px;
+    font-size: 1.1em;
+}
+
+div.form2 span {
+    font-weight: bolder;
+}
+
+div.form1:hover {
+    border-left: 11px solid var(--cor-azul);
+    transition: .5s;
+}
+
+div.form2:hover {
+    border-left: 11px solid var(--cor-azul);
+    transition: .5s;
 }
