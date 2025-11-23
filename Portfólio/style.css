@@ -251,3 +251,86 @@ div.form2:hover {
     border-left: 11px solid var(--cor-azul);
     transition: .5s;
 }
+
+/*PROJETOS*/
+
+div.projetos {
+    background-color: white;
+    width: 90vw;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    padding: 30px;
+}
+
+div.projetos h1 {
+    color: var(--cor-azul);   
+    margin: 15px;
+}
+
+div.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    flex-direction: column;
+}
+
+div.projetos .container {
+    border-left: 7px solid var(--cor-azul);
+    border-radius: 10px;
+    width: 95%;
+    background-color: var(--cor-de-fundo);
+    padding-bottom: 15px;
+}
+
+div.projetos .container:hover {
+    border-left: 15px solid var(--cor-azul);
+    transition: .5s;
+    cursor: pointer;
+}
+
+div.projetos .foto {
+    width: 90%;
+    align-items: center;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 20px;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+div.info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 20px;
+}
+
+.info h3 {
+    margin: 10px 0px;
+}
+
+.info summary {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    div.flex {
+        flex-direction: row;
+        justify-content: end;
+        height: 150px;
+    }
+
+    .foto {
+        max-width: 220px;
+        height: 100px;
+    }
+
+    .info {
+        
+    }
+}
